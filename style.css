@@ -33,7 +33,7 @@ body {
 .image {
   background: url(bkimage.jpg) no-repeat center center fixed;
   text-align: center;
-  height: 100%;
+  height: auto;
   position: relative;
   width: 100%;
   background-size: cover;
@@ -42,7 +42,7 @@ body {
 .image2 {
   background: url(uluru.jpg) no-repeat center center fixed;
   text-align: center;
-  height: 100%;
+  height: auto;
   position: relative;
   width: 100%;
   background-size: cover;
@@ -51,7 +51,7 @@ body {
 .image3 {
   background: url(bkimage.jpg) no-repeat center center;
   text-align: center;
-  height: 100%;
+  height: auto;
   position: relative;
   width: 100%;
   background-size: cover;
@@ -65,6 +65,12 @@ body {
   position: relative;
   width: 100%;
   background-size: cover; */
+}
+
+@media only screen and (max-width: 320px) {
+  body {
+    font-size: 2em;
+  }
 }
 
 .landing-text {
