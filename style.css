@@ -37,6 +37,9 @@ body {
   position: relative;
   width: 100%;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .image2 {
@@ -46,6 +49,9 @@ body {
   position: relative;
   width: 100%;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .image3 {
@@ -55,6 +61,9 @@ body {
   position: relative;
   width: 100%;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 #home {
@@ -128,6 +137,9 @@ body {
   position: relative;
   width: 100%;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 #fixed2 {
@@ -137,6 +149,9 @@ body {
   position: relative;
   width: 100%;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .card-title {
