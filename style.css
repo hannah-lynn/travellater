@@ -1,0 +1,181 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Amatic SC', cursive;
+}
+
+.navbar {
+  font-size: 1.5em;
+  opacity: 0.8;
+  padding: 1% 1%;
+}
+.navbar-brand {
+  min-height: 55px;
+  padding: 0 15px 5px;
+}
+
+.dropdown-toggle::after {
+  transition: transform 0.15s linear;
+}
+
+.show.dropdown .dropdown-toggle::after {
+  transform: translateY(3px);
+}
+
+/* .navbar-light li a:hover .navbar-light li a:active {
+  color: paleturquoise;
+} */
+
+.image {
+  background: url(bkimage.jpg) no-repeat center center fixed;
+  text-align: center;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+.image2 {
+  background: url(uluru.jpg) no-repeat center center fixed;
+  text-align: center;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+.image3 {
+  background: url(bkimage.jpg) no-repeat center center;
+  text-align: center;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+#home {
+  display: inline-block;
+  margin-top: 115px;
+  /* display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover; */
+}
+
+.landing-text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.landing-text h1 {
+  color: #f8f8ff;
+  font-size: 5em;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 4px 4px black;
+  letter-spacing: 20px;
+}
+
+.page-text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.page-text h1 {
+  color: #f8f8ff;
+  font-size: 5em;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 4px 4px black;
+  letter-spacing: 20px;
+}
+
+#exp-button {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.contact-logo {
+  padding-top: 50px;
+}
+
+.padding {
+  padding: 80px 0;
+}
+
+.padding img {
+  width: 100%;
+}
+
+#fixed {
+  background: url(travel.jpg) no-repeat center center fixed;
+  display: table;
+  height: 60%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+#fixed2 {
+  background: url(ausmap.jpg) no-repeat center center fixed;
+  display: table;
+  height: 60%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card {
+  box-shadow: 10px 10px #d0d0d0;
+}
+
+footer {
+  width: 100%;
+  background-color: paleturquoise;
+  padding: 4% 2% 4% 2%;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.fa:hover {
+  color: gray;
+  text-decoration: none;
+}
+h2 {
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.icon {
+  max-width: 200px;
+}
+
+.random {
+  padding: 5px 10px 10px 10px;
+  font-size: 2em;
+  color: #ff5733;
+}
+
+#space {
+  color: white;
+  padding: 100px;
+}
