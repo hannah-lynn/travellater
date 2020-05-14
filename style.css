@@ -45,9 +45,10 @@ body {
 .image2 {
   background: url(uluru.jpg) no-repeat center center fixed;
   text-align: center;
+  max-width: 100%;
   height: auto;
   position: relative;
-  width: 100%;
+
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -76,11 +77,11 @@ body {
   background-size: cover; */
 }
 
-@media only screen and (max-width: 320px) {
+/* @media only screen and (max-width: 320px) {
   body {
     font-size: 2em;
   }
-}
+} */
 
 .landing-text {
   display: table-cell;
