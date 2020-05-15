@@ -31,7 +31,7 @@ body {
 } */
 
 .image {
-  background: url(bkimage.jpg) no-repeat center center fixed;
+  background: url(./assets/bkimage.jpg) no-repeat center center fixed;
   text-align: center;
   height: auto;
   position: relative;
@@ -43,7 +43,7 @@ body {
 }
 
 .image2 {
-  background: url(uluru.jpg) no-repeat center center fixed;
+  background: url(./assets/uluru.jpg) no-repeat center center fixed;
   text-align: center;
   max-width: 100%;
   height: auto;
@@ -56,7 +56,7 @@ body {
 }
 
 .image3 {
-  background: url(bkimage.jpg) no-repeat center center;
+  background: url(./assets/bkimage.jpg) no-repeat center center;
   text-align: center;
   height: auto;
   position: relative;
@@ -132,7 +132,7 @@ body {
 }
 
 #fixed {
-  background: url(travel.jpg) no-repeat center center fixed;
+  background: url(./assets/travel.jpg) no-repeat center center fixed;
   display: table;
   height: 60%;
   position: relative;
@@ -144,7 +144,7 @@ body {
 }
 
 #fixed2 {
-  background: url(ausmap.jpg) no-repeat center center fixed;
+  background: url(./assets/ausmap.jpg) no-repeat center center fixed;
   display: table;
   height: 60%;
   position: relative;

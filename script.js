@@ -11,9 +11,9 @@ let i = 0;
 let images = [];
 let time = 3000;
 
-images[0] = 'slide1.jpg';
-images[1] = 'slide2.jpg';
-images[2] = 'slide3.jpg';
+images[0] = './assets/slide1.jpg';
+images[1] = './assets/slide2.jpg';
+images[2] = './assets/slide3.jpg';
 
 function slideShow() {
   document.slide.src = images[i];
