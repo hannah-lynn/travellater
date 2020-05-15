@@ -122,9 +122,10 @@ body {
 #fixed {
   background: url(./assets/travel.jpg) no-repeat center center fixed;
   display: table;
-  height: auto;
+  display: table;
+  height: 60%;
   position: relative;
-  width: 100vh;
+  width: 100%;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
